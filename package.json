@@ -1,6 +1,6 @@
 {
   "name": "stream-observer",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "description": "Listen for data events on a readable stream without triggering flowing mode",
   "main": "index.js",
   "dependencies": {
@@ -35,5 +35,9 @@
   "bugs": {
     "url": "https://github.com/watson/stream-observer/issues"
   },
-  "homepage": "https://github.com/watson/stream-observer#readme"
+  "homepage": "https://github.com/watson/stream-observer#readme",
+  "coordinates": [
+    55.777658,
+    12.589934
+  ]
 }
