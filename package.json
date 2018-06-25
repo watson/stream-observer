@@ -1,0 +1,39 @@
+{
+  "name": "stream-observer",
+  "version": "0.0.0",
+  "description": "Listen for data events on a readable stream without triggering flowing mode",
+  "main": "index.js",
+  "dependencies": {
+    "secret-event-listener": "^1.0.0"
+  },
+  "devDependencies": {
+    "standard": "^11.0.1",
+    "tape": "^4.9.1"
+  },
+  "scripts": {
+    "test": "standard && node test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/watson/stream-observer.git"
+  },
+  "keywords": [
+    "readable",
+    "readable-stream",
+    "stream",
+    "listen",
+    "listener",
+    "flow",
+    "flowing",
+    "pause",
+    "paused",
+    "data",
+    "event"
+  ],
+  "author": "Thomas Watson <w@tson.dk> (https://twitter.com/wa7son)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/watson/stream-observer/issues"
+  },
+  "homepage": "https://github.com/watson/stream-observer#readme"
+}
