@@ -1,9 +1,9 @@
 'use strict'
 
-const addSerectListener = require('secret-event-listener')
+const addSecretListener = require('secret-event-listener')
 
 module.exports = function streamObserver (stream, cb) {
-  addSerectListener(stream, 'data', cb)
+  addSecretListener(stream, 'data', cb)
   return function stop () {
     stream.removeListener('data', cb)
   }
